@@ -1,0 +1,31 @@
+.agent-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100%;
+}
+
+.agent-sidebar-container {
+    margin: 0;
+    gap: 10px;
+}
+
+.agent-header-container {
+    background-color: aliceblue;
+    width: 100%;
+    margin: 0;
+    flex: 1; /* Ensures the header takes remaining available space */
+    display: flex;
+    flex-direction: column; /* Stack Users and agent-chat-container vertically */
+}
+
+.agent-chat-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%; 
+    flex-wrap: nowrap ; 
+    overflow: hidden; 
+    margin-left: 5px;
+}
